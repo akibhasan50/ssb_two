@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+}
+
+.header {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.header .logo {
+  float: left;
+}
+
+.header .logo img {
+  height: 50px;
+  width: 60px;
+}
+
+.header .nav {
+  float: right;
+  margin-top: 10px;
+}
+
+.header .nav ul li {
+  display: inline;
+  padding: 10px;
+  list-style: none;
+}
+
+.header .nav ul li a {
+  text-decoration: none;
+  color: rgb(128, 119, 119);
+  font-size: 1.2rem;
+}
+
+.header .nav ul li a:hover {
+  color: #333;
+  border-bottom: 2px solid rgb(14, 132, 179);
+  transition: 0.1s;
+}
+
+.slogan {
+  margin-top: 15px;
+}
+
+.slogan h1 {
+  width: 80%;
+  text-align: center;
+  font-size: 4rem;
+  margin: auto;
+}
+
+.slogan p {
+  text-align: center;
+  color: rgb(128, 119, 119);
+  padding: 10px 0;
+}
+
+.mainimg {
+  width: 60%;
+  overflow: hidden;
+}
+
+.mainimg img {
+  height: 70%;
+  width: 100%;
+}
+
+.sub1 {
+  height: 260px;
+  overflow: hidden;
+}
+
+.container .one {
+  float: left;
+  height: 100%;
+  width: 48%;
+  margin-right: 4%;
+  text-align: right;
+}
+
+.one p {
+  color: rgb(128, 119, 119);
+  font-size: 20px;
+}
+
+.one .big-text {
+  font-size: 4rem;
+  color: #ed5969;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.container .two {
+  float: left;
+  height: 100%;
+  width: 48%;
+}
+
+.two p {
+  color: #12254d;
+  font-weight: bold;
+  font-size: 50px;
+  width: 80%;
+  padding: 10px 0;
+}
+.last {
+  height: 450px;
+}
+.last .card {
+  float: left;
+  width: 32%;
+  height: 100%;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  margin-right: 2%;
+}
+.last .card.thirdcard {
+  margin-right: 0;
+}
+
+.last .secondcard {
+  background: #eaf9f4;
+}
+.last .thirdcard {
+  background: #fff8e7;
+}
+.last .firstcard {
+  background: #feebed;
+}
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .footerimg {
+  height: 65%;
+}
+.card .footercont {
+  height: 35%;
+  padding: 20px 10px;
+}
+.last .card h4 {
+  color: #2a1d2d;
+  font-size: 1.3rem;
+}
+.last .card p {
+  color: rgb(128, 119, 119);
+  padding: 20px 0;
+  font-size: 1.2rem;
+}
